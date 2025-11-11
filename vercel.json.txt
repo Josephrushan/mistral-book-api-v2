@@ -10,7 +10,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "*"
+          "value": "https://visualmotion.co.za"
         },
         {
           "key": "Access-Control-Allow-Methods",
