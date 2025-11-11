@@ -4,25 +4,6 @@
       "runtime": "nodejs18.x"
     }
   },
-  "headers": [
-    {
-      "source": "/api/generate(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://visualmotion.co.za"
-        },
-        {
-          "key": "Access-Control-Allow-Methods",
-          "value": "GET, POST, OPTIONS"
-        },
-        {
-          "key": "Access-Control-Allow-Headers",
-          "value": "Content-Type"
-        }
-      ]
-    }
-  ],
   "routes": [
     {
       "src": "/api/generate",
